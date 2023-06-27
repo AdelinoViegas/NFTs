@@ -1,0 +1,126 @@
+.footer{
+	width: 100%;
+	background-color:var(--card-color);
+}
+
+.footer .line-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 9% 6% 5% 6%;
+}
+
+.footer .line-1 .bg-red{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height:64px;
+	background-color:var(--color-logo);
+}
+
+.footer .line-1 .bg-red svg{
+	width: 20px;
+	height: 20px;
+}
+
+
+.footer .footer-info{
+	display: grid;
+	grid-template-columns:520px auto;
+	grid-template-rows: auto;
+	padding: 0px;
+	border-top:2px solid var(--subtitle-color);
+	border-bottom:2px solid var(--subtitle-color);
+}
+
+.footer .footer-info .container-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 30px;
+	border-right:2px solid var(--subtitle-color);
+	padding: 75px 14%;
+}
+
+.footer .footer-info .container-2{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-right: 10.5%;
+	font-size: 1.1rem;
+}
+
+
+.footer .footer-info .container-2 ul li{
+  margin: 14px 0;
+}
+
+.footer .footer-info .container-2 ul li{
+	color:var(--subtitle-color);
+}
+
+.footer .footer-info .container-2 ul li:first-child{
+	color:var(--white-text);
+	font-family:montserrat-bold;
+}
+
+.footer .footer-info .container-1 .text,
+.footer .footer-info .container-1 .inputs{
+	align-self:flex-start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .footer-info .container-1 .text p{
+	font-size: 1.7rem;
+}
+
+.footer .footer-info .container-1 .text p span{
+	color:var(--color-logo);
+}
+
+.footer .footer-info .container-1 .inputs input:first-child{
+  width:260px;
+  height:50px;
+  border:none;
+  outline:none;
+  background-color:var(--color-input);
+  color: var(--subtitle-color);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.footer .footer-info .container-1 .inputs input:last-child{
+  width:100px;
+  height:54px;
+  color: var(--black-text);
+  font-family:montserrat-bold;
+  font-size: 1.1rem;
+  cursor:pointer;
+}
+
+.footer .footer-info .container-2{
+	display: flex;
+}
+
+.footer .adress{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 50px 6%;
+
+}
+
+.footer .adress a{
+	color:var(--subtitle-color);
+}
+
+.footer .adress ul{
+	display: flex;
+	column-gap:40px;
+	/*padding: ;*/
+}

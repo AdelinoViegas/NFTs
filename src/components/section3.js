@@ -8,7 +8,6 @@ export default function section3(){
  return(
    <section className="section3">
     <h2><span>Populares</span> da semana</h2>
-
 <div className="aside-left">
   <div className="container-1">
     <div className="text-1">

@@ -10,8 +10,6 @@ export default function Main(){
     return(
        <section className="section4">
            <h2>Melhores <span>Artistas</span></h2>
-
-
         <div className="container-1">
         <div className="image-1">
             <img src={Artista1} alt="artista-1"/>
@@ -41,8 +39,6 @@ export default function Main(){
             <span>50 Fotografias</span>
         </div>
         </div>
-
-
         <div className="container-4">
         <div className="image-4">
             <img src={Artista4} alt="artista-4"/>
@@ -52,7 +48,6 @@ export default function Main(){
             <span>43 Fotografias</span>
         </div>
         </div>
-
         <div className="container-5">
         <div className="image-5">
             <img src={Artista5} alt="artista-5"/>
@@ -62,7 +57,6 @@ export default function Main(){
             <span>28 Fotografias</span>
         </div>
         </div>
-
         <div className="container-6">
         <div className="image-6">
             <img src={Artista6} alt="artista-6"/>
@@ -72,7 +66,6 @@ export default function Main(){
             <span>20 Fotografias</span>
         </div>
         </div>
-        
         <div className="page">
             <p>Ver todos os artistas</p>&nbsp;&nbsp;&nbsp;&nbsp;
             <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">

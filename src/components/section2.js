@@ -17,7 +17,6 @@ export default function section2(){
 			<p>Artistas</p>
 		</div>
 	</div>
-
 	<div className="info-item">
 		<div className="phrase">
 			<div>
@@ -43,7 +42,6 @@ export default function section2(){
 			<img src={Banner} alt="banner"/>
 		</div>
 	</div>
-
    </section>
  );
 }

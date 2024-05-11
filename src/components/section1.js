@@ -13,7 +13,6 @@ import Galeria8 from "../img/galeria-8.png";
 export default function section1(){
  return(
 <section className="section-main">
-    
         <header cass>
           <div className="logo">
         <svg width="258" height="31" viewBox="0 0 258 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +27,6 @@ export default function section1(){
               <li>FAQ</li>
             </ul>
         </div>
-
         <button>
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M25.8098 3.34275L16.4407 10.3013L18.1733 6.19586L25.8098 3.34275Z" fill="#E2761B" stroke="#E2761B" stroke-linecap="round" stroke-linejoin="round"/>
@@ -63,23 +61,17 @@ export default function section1(){
       </svg>
           <span>Conectar carreira</span>
       </button>
-  
-         <span className="mobile"></span>
-      
-         
+         <span className="mobile"></span>    
   </header>
 
 <section className="section-children">
-   
    <div className="info-text-one">
-
    	  <div className="notice-one">
    	  	<p>Mercado digital para colecionáveis em criptos token não fungíveis(NFT).</p>
    	  	<p>
    	  		Compre, venda e descubra ativos digitais exclusivos para voçê
         </p>
    	  </div>
-
    	  <div className="notice-two">
    	  	<img src={Avarts} alt="group-avarts"/>
    	  	<div>
@@ -87,9 +79,7 @@ export default function section1(){
    	  		<p>Artistas Selecionados</p>
    	  	</div>
    	  </div>
-
    </div>
-
    <div className="info-text-two">
    	 <h1>
     	 	 Descubra a verdadeira arte digital e 
@@ -97,7 +87,6 @@ export default function section1(){
    	 	  <span>NFTs</span>
    	 </h1>
    </div>
-
    <div className="info-img">
      <svg width="202" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="101" cy="101" r="75" fill="#FF5B50" stroke="#060606" stroke-width="50"/>
@@ -117,10 +106,7 @@ export default function section1(){
 <path d="M55.5379 49.771L57.2428 51.3146L49.7086 59.7282L48.0038 58.1847L55.5379 49.771ZM34.2789 44.9881L50.0897 59.3026L48.2037 61.4088L32.3929 47.0942L34.2789 44.9881ZM47.233 44.2676L48.9379 45.8111L42.4005 53.1117L40.6956 51.5681L47.233 44.2676ZM41.3343 37.1092L43.05 38.6625L35.6135 46.967L33.8978 45.4137L41.3343 37.1092Z" fill="white"/>
 </svg>
    </div>	
-
 </section>
-
-
 <section className="galery">
 	<div className="section-1">
 		<img src={Galeria1}/>
@@ -135,7 +121,6 @@ export default function section1(){
 		<img src={Galeria8}/>
 	</div>
 </section>
-
 </section>
   
  );

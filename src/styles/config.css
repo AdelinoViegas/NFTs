@@ -1,19 +1,26 @@
 @charset "utf-8";
 
- @font-face{
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+	color:  var(--white-text);
+}
+
+@font-face{
  	font-family:montserrat;
  	src:url('../fonts/Montserrat-Regular.ttf');
- }
+}
 
-  @font-face{
+@font-face{
  	font-family:montserrat-bold;
  	src:url('../fonts/Montserrat-Bold.ttf');
- }
+}
 
- @font-face{
- 	font-family:semi-bold;
+@font-face{
+	font-family:semi-bold;
  	src:url('../fonts/Montserrat-SemiBold.ttf');
- }
+}
 
 :root {
   --body-background: #0e0e0e;
@@ -25,14 +32,6 @@
   --color-input: #0D0D0D;
 }
 
-
-*{
-	margin: 0;
-	padding:0;
-	box-sizing:border-box;
-	color:  var(--white-text);
-}
-
 li{
 	list-style:none;
 	color:var(--white-text);
@@ -42,7 +41,6 @@ a{
 	text-decoration: none;
 	color:var(--white-text);
 }
-
 
 body{
   background-color: var(--body-background);

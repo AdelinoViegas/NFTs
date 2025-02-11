@@ -1,53 +1,53 @@
 @charset "utf-8";
 
-*{
+* {
 	margin: 0;
-	padding:0;
-	box-sizing:border-box;
-	color:  var(--white-text);
+	padding: 0;
+	box-sizing: border-box;
+	color: var(--white-text);
 }
 
-@font-face{
- 	font-family:montserrat;
- 	src:url('../fonts/Montserrat-Regular.ttf');
+@font-face {
+	font-family: montserrat;
+	src: url('../fonts/Montserrat-Regular.ttf');
 }
 
-@font-face{
- 	font-family:montserrat-bold;
- 	src:url('../fonts/Montserrat-Bold.ttf');
+@font-face {
+	font-family: montserrat-bold;
+	src: url('../fonts/Montserrat-Bold.ttf');
 }
 
-@font-face{
-	font-family:semi-bold;
- 	src:url('../fonts/Montserrat-SemiBold.ttf');
+@font-face {
+	font-family: semi-bold;
+	src: url('../fonts/Montserrat-SemiBold.ttf');
 }
 
 :root {
-  --body-background: #0e0e0e;
-  --color-logo: #ff5b50;
-  --card-color: #252525;
-  --white-text: #fff;
-  --subtitle-color: #5a5757;
-  --black-text: #000;
-  --color-input: #0D0D0D;
+	--body-background: #0e0e0e;
+	--color-logo: #ff5b50;
+	--card-color: #252525;
+	--white-text: #fff;
+	--subtitle-color: #5a5757;
+	--black-text: #000;
+	--color-input: #0D0D0D;
 }
 
-li{
-	list-style:none;
-	color:var(--white-text);
+li {
+	list-style: none;
+	color: var(--white-text);
 }
 
-a{
+a {
 	text-decoration: none;
-	color:var(--white-text);
+	color: var(--white-text);
 }
 
-body{
-  background-color: var(--body-background);
-  font-family:montserrat;
-  height:200vh;
+body {
+	background-color: var(--body-background);
+	font-family: montserrat;
+	height: 200vh;
 }
 
-button{
-   font-family:montserrat-bold;
+button {
+	font-family: montserrat-bold;
 }

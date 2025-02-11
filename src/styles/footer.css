@@ -24,7 +24,6 @@
 	height: 20px;
 }
 
-
 .footer .footer-info{
 	display: grid;
 	grid-template-columns:520px auto;
@@ -51,7 +50,6 @@
 	padding-right: 10.5%;
 	font-size: 1.1rem;
 }
-
 
 .footer .footer-info .container-2 ul li{
   margin: 14px 0;
@@ -112,7 +110,6 @@
 	justify-content: space-between;
 	align-items:center;
 	padding: 50px 6%;
-
 }
 
 .footer .adress a{
@@ -122,5 +119,4 @@
 .footer .adress ul{
 	display: flex;
 	column-gap:40px;
-	/*padding: ;*/
 }

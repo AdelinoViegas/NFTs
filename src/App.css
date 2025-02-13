@@ -1,39 +1,36 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height:100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.game{
-    border:1px solid #000;
-    display: flex;
-   flex-direction:column;
-   align-items:center;
+.game {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.game .game-board{
+.game .game-board {
   /*display: flex;
   flex-direction:column;
   align-items:center;
   row-gap: 10px;*/
 }
 
-.game .game-board .board-row .square{
+.game .game-board .board-row .square {
   width: 40px;
-  height:40px;
-  margin:0px 5px;
+  height: 40px;
+  margin: 0px 5px;
 }
 
-.game-info ol{
-    list-style:none;
+.game-info ol {
+  list-style: none;
 }
 
-.game-info li{
+.game-info li {
   /*width: 100%;  
   display: flex;
   justify-content: center;*/
 }
-
-
-

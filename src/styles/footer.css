@@ -114,7 +114,6 @@
 .footer .adress a {
 	color: var(--subtitle-color);
 }
-
 .footer .adress ul {
 	display: flex;
 	column-gap: 40px;

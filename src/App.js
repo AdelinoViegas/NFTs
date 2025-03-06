@@ -44,7 +44,6 @@ export default function App() {
       <Section4 />
       <Footer focus={focar} blur={desfocar} />
     </>
-
   );
 }
 

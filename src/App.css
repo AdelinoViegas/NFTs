@@ -12,13 +12,6 @@ body {
   align-items: center;
 }
 
-.game .game-board {
-  /*display: flex;
-  flex-direction:column;
-  align-items:center;
-  row-gap: 10px;*/
-}
-
 .game .game-board .board-row .square {
   width: 40px;
   height: 40px;
@@ -27,10 +20,4 @@ body {
 
 .game-info ol {
   list-style: none;
-}
-
-.game-info li {
-  /*width: 100%;  
-  display: flex;
-  justify-content: center;*/
 }

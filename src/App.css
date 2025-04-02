@@ -21,3 +21,9 @@ body {
 .game-info ol {
   list-style: none;
 }
+
+.game-info li {
+  /*width: 100%;  
+  display: flex;
+  justify-content: center;*/
+}

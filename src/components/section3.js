@@ -1,4 +1,3 @@
-
 import Astronauta1 from '../img/astronauta-1.png';
 import Astronauta2 from '../img/astronauta-2.png';
 import Astronauta3 from '../img/astronauta-3.png';
